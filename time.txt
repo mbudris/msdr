@@ -1,0 +1,7 @@
+import datetime
+>>> t= datetime.datetime(1980,1,6,0,0,0)
+>>> str(t+datetime.timedelta(0,395341))
+'1980-01-10 13:49:01'
+>>> 
+
+reikia prie timepulse pakesiti timebase ne tik prie timemark

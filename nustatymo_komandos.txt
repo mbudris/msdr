@@ -1,3 +1,7 @@
+01 Jei nauja instaliacija reikia enablinti SERIAL port
+   
+
 B5 62 06 19 0C 00 00 00 00 00 E8 03 00 00 25 01 00 00 3C 6B - TM2 nustatymai
 B5 62 06 19 01 00 00 20 85 - TM2 nustatymai
 B5 62 06 01 03 00 0D 03 01 1B 6D - ubx komanda, kuri nustato, kad TM2 timemark laikas butu isduodamas kas sekunde.
+sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock -D 5 -N -S 2947

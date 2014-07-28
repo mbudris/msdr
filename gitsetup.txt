@@ -1,5 +1,6 @@
 Naujam RPI reikia:
-git config --global user.name "mbudris" - prisirišam prie accoun'to
+git config --global user.name "usernam" - prisirišam prie accoun'to
+git config --global user.email email@email.com
 git init "dir" - su git susijusios direktorijos sukūrimas
 git clone "nuoroda is github" - klonuojam pas save
 git add . - prideti pakeitimus

@@ -1,0 +1,4 @@
+Naujam RPI reikia:
+git init "dir" - su git susijusios direktorijos sukurimas
+git clone "nuoroda is github" - klonuojam pas save
+

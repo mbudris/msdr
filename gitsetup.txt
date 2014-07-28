@@ -1,4 +1,8 @@
 Naujam RPI reikia:
+git config --global user.name "mbudris" - prisirisam prie accounto
 git init "dir" - su git susijusios direktorijos sukurimas
 git clone "nuoroda is github" - klonuojam pas save
+git add . - prideti pakeitimus
+git commit -m "message" - priimti pakeitumus su pranesimu
+git push - galutinis nusiuntimas
 

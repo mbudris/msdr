@@ -2,6 +2,7 @@ import serial
 import binascii
 import struct
 import datetime
+from beep import beep
 ser = serial.Serial(20, 9600, timeout=1)
 
 def dec2hex(n):
@@ -38,5 +39,6 @@ while 1:
             if binascii.hexlify(ser.read(1)) == '0d':
                 if binascii.hexlify(ser.read(1)) == '03':
                     print timeutcf(ser.read(30),'rising')
+                    beep()
 
 ser.close()

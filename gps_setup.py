@@ -6,8 +6,8 @@ import sys
 
 gps_set_success = False
 
-ser = serial.Serial("/dev/ttyAMA0", 9600) #ACM gps AMA gpio
-#ser = serial.Serial(20, 9600)
+#ser = serial.Serial("/dev/ttyAMA0", 9600) #ACM gps AMA gpio
+ser = serial.Serial(20, 9600)
 
 #rising edge
 setTM2 = bytearray.fromhex("B5 62 06 19 0C 00 00 00 00 00 E8 03 00 00 15 01 00 00 2C 2B")
